@@ -1,0 +1,76 @@
+:root {
+  --background: #121214;
+  --grey: #e1e1e6;
+  --write: #ffffff;
+  --green: #04d361;
+  --purple: #8257e5;
+  --blue: #4763ff;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: var(--background);
+  font-family: 'Merriweather', serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+h1,
+h2 {
+  color: var(--write);
+}
+
+h5 {
+  color: var(--grey);
+  margin-bottom: 0;
+}
+
+.back-end {
+  color: var(--green);
+  margin-bottom: 0;
+}
+
+.front-end {
+  color: var(--purple);
+  margin-bottom: 0;
+}
+
+.mobile {
+  color: var(--blue);
+  margin-bottom: 0;
+}
+
+#icons {
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+#icons a {
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+/* cores retirada do site https://brandcolors.net/ */
+#icons a .fa-github {
+  color: #f5f5f5;
+}
+
+#icons a .fa-gitlab {
+  color: #fc6d26;
+}
+
+#icons a .fa-linkedin {
+  color: #0077b5;
+}
